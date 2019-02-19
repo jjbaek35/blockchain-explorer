@@ -1,4 +1,4 @@
-Hyperledger Explorer
+Hyperledger Explorer modified by jj 
 =======
 
 Hyperledger Explorer is a simple, powerful, easy-to-use, highly maintainable, open source browser for viewing activity on the underlying blockchain network. Users have the ability to configure & build Hyperledger Explorer natively on macOS and Ubuntu.
@@ -224,7 +224,7 @@ On another terminal.
 - `cd blockchain-explorer/app/test`
 - `npm install`
 - `npm run test`
-- `cd client/`
+- `cd blockchain-explorer/client/`       // 
 - `npm install`
 - `npm test -- -u --coverage`
 - `npm run build`
