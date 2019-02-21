@@ -185,7 +185,7 @@ On another terminal.
 - Modify config.json to update network-config.
 	- Change "fabric-path" to your composer network path,
 	- Configure the Hyperledger composer based on this link [CONFIG-COMPOSER-HLEXPLORER.md](CONFIG-COMPOSER-HLEXPLORER.md)
-- Modify "syncStartDate" to filter data by block timestamp
+- Modify "syncStartDate" to filter data by block timestamp  // in config-composer.json   by jj
 - Modify "channel" to your default channel
 
 If you are connecting to a non TLS fabric peer, please modify "network-id.clients.client-id.tlsEnable" (`true->false`) in config.json. Depending on this configuration, the application decides whether to go TLS or non TLS route.
